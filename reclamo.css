@@ -1,0 +1,208 @@
+@font-face {
+    font-family: zebra;
+    src: url(Fuentes/Zebra.ttf);
+}
+
+header{
+    display: inline-block;
+    
+}
+.Portada{ 
+    background-image: url("Imagenes/Portada.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img {
+    width: 200PX;
+    height: 200px;
+    border-radius: 20%;
+    padding-top: 10px;
+    padding-left: 15px;
+    
+}
+
+h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    font-family: zebra;
+    color: rgb(241, 241, 241);
+    padding-top: 60px;
+  
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50%;
+    float: right;
+}
+
+.search-social input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+}
+
+.social-icons a img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10%;
+}
+
+
+
+footer {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+}
+
+footer a img {
+    width: 40px;
+    height: 40px;
+}
+
+.Derechos{
+
+    text-align: center;
+}
+
+/* configuracion main*/
+
+main {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .campo {
+    margin-bottom: 30px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+
+  .Cuadro{
+    width: 500px;
+  }
+  
+
+  
+  textarea {
+    width: 500px;
+    padding: 8px;
+    height: 200px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+ 
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+footer {
+    text-align: right;
+    padding: 10px 30px;
+    background-color: #f4f4f4;
+}
+
+footer a img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+
+.Derechos{
+
+    text-align: center;
+}
